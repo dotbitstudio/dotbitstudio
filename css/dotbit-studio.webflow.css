@@ -5971,6 +5971,7 @@
 
   .fn-paragraph-no-margin {
     width: 90%;
+    text-align: center;
     font-size: 13px;
   }
 
@@ -5980,7 +5981,11 @@
   }
 
   .fn-column {
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  .fn-container-grid {
+    justify-items: center;
   }
 
   .fn-section {
@@ -6111,7 +6116,12 @@
   }
 
   .fn-column-2 {
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  .examplsect {
+    height: 100%;
+    max-height: 100%;
   }
 
   .tittlework {
@@ -6120,7 +6130,7 @@
   }
 
   .heading-2 {
-    font-size: 16px;
+    font-size: 19px;
   }
 
   .cf-features-section-2-icon-wrap {
@@ -6509,6 +6519,11 @@
   #w-node-_0459bc15-c319-59ac-b4db-38b8396adc9e-d4a54609 {
     align-self: auto;
     justify-self: auto;
+  }
+
+  #w-node-_9976d2aa-5975-04c6-e4f9-96173afff53b-d4a54609 {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 5.25fr;
   }
 }
 
